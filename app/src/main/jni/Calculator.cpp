@@ -3,7 +3,7 @@
 #include <iostream>
 #include <stdio.h>
 
-JNIEXPORT jstring JNICALL Java_com_example_jnitest2_MainActivity_getSum
+JNIEXPORT jstring JNICALL Java_com_example_jnitest2_WebAppInterface_getSum
         (JNIEnv *env, jobject thiz, jstring text) {
     char buffer[10];
 
